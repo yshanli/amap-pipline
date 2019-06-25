@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <amap-container></amap-container>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AmapContainer from "./components/AmapContainer";
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    AmapContainer
   }
 }
 </script>
